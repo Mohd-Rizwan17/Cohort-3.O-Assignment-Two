@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+}
+
+.content {
+  position: relative;
+  color: #5d131b;
+  border: solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.star-logo {
+  width: 60px;
+  height: auto;
+}
+
+.title {
+  width: 55%;
+  font-size: 3.5rem;
+  letter-spacing: -2px;
+  line-height: 0.9;
+  font-weight: 500;
+  color: #5d131b;
+}
+.title span {
+  color: #ab9896;
+  margin-left: 185px;
+}
+.title p {
+  color: #5d131b;
+  margin-left: 190px;
+}
+
+.title img {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  vertical-align: middle;
+  object-fit: 1;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: small;
+  text-align: end;
+  margin-right: 10px;
+  color: #8c6369;
+}
+
+.description {
+  width: 310px;
+  margin-left: 35%;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #6a383c;
+}
+
+.project {
+  width: 50px;
+  position: absolute;
+  left: 25px;
+  top: 600px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.images {
+  margin-left: 500px;
+}
+.images img {
+  width: 220px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.footer {
+  margin-top: 80px;
+  text-align: center;
+}
+.footer p {
+  width: 750px;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: -3px;
+  margin-left: 300px;
+}
+
+.footer span {
+  color: #ab9896;
+}
+
+.span {
+  display: block;
+  width: 540px;
+  font-size: 1rem;
+  margin-left: 480px;
+  margin-top: 20px;
+}
